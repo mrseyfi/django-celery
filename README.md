@@ -44,8 +44,11 @@ pip3 install git+https://github.com/mrseyfi/django-celery.git --upgrade
 Documents.
 </pre></div>
 https://docs.celeryproject.org/en/stable/
+<BR/>
 https://www.erlang.org
+<BR/>
 https://www.rabbitmq.com
+<BR/>
 https://flower.readthedocs.io/en/latest/
 <BR/>
 <BR/>
