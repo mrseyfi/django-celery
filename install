@@ -1,0 +1,41 @@
+sudo code --user-data-dir="~/.vscode-root"
+pip3 install virtualenv
+
+1-  virtualenv myenv
+2-  source myenv/bin/activate
+
+sudo code --user-data-dir="~/.vscode-root"
+pip3 install virtualenv
+
+1-  virtualenv myenv
+2-  source myenv/bin/activate
+
+4-  apt-get install erlang
+OSX: brew install erlang
+OSX: brew services start rabbitmq
+
+5-  sudo apt-get install rabbitmq-server -y --fix-missing
+OSX: brew install rabbitmq
+
+3-  pip3 install celery
+
+6-  celery -A A worker --loglevel=INFO
+5-  (myenv)$ celery -A A worker -l info
+#   pip3 install future
+
+7-  add.apply_async(args=[5,8])
+7-  add.delay(5,8)
+
+7-  pip3 install flower
+8-  celery flower -A one --broker=amqp://guest:guest@localhost:5672//
+
+9-  celery -A one status
+10- celery shell
+11- celery inspect active
+
+4-  python3 manage.py runserver 0.0.0.0:8000
+
+python3 manage.py createsuperuser 
+
+#task
+celery -A A beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
