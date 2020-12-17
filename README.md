@@ -40,9 +40,8 @@ update to last version.
 pip3 install git+https://github.com/mrseyfi/django-celery.git --upgrade
 </pre></div>
 
+Documents
 <div class="highlight highlight-source-js"><pre>
-Documents.
-</pre></div>
 https://docs.celeryproject.org/en/stable/
 <BR/>
 https://www.erlang.org
@@ -50,5 +49,6 @@ https://www.erlang.org
 https://www.rabbitmq.com
 <BR/>
 https://flower.readthedocs.io/en/latest/
+</pre></div>
 <BR/>
 <BR/>
